@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import router from "./routes/user-routes.mjs";
+import router from "./routes/user-routes.js";
 import blogRouter from "./routes/blog-routes.js";
 import bodyParser from 'body-parser';
 import cors from 'cors';
