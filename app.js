@@ -1,9 +1,9 @@
-import express from "express";
-import mongoose from "mongoose";
-import router from "./routes/user-routes.js";
-import blogRouter from "./routes/blog-routes.js";
-import bodyParser from 'body-parser';
-import cors from 'cors';
+var express = require('express');
+var mongoose = require('mongoose');
+var router =require("./routes/user-routes.js");
+var blogRouter =require("./routes/blog-routes.js");
+var bodyParser = require('body-parser');
+const cors = require('cors');
 const app = express();
 app.use(cors())
 app.use(express.json()); 
